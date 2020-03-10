@@ -6,7 +6,7 @@
 nome = input("Qual seu nome?: ")
 idade = int(input("Qual sua idade?"))
 risco = input("Eh grupo de risco? (SIM ou NAO)")
-risco_pad = risco.upper
+risco_pad = risco.upper()
 if idade < 15 or idade > 60:
     print ("Realizar Exame Imediatamente")
 elif risco_pad == "SIM":
